@@ -1,0 +1,5 @@
+*.sqlite
+uploads/*
+.git
+.gitignore
+README.md

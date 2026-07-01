@@ -1,8 +1,7 @@
 services:
   - type: web
     name: royalschoolmgtsystem
-    env: php
+    env: docker
     plan: free
-    buildCommand: "echo 'No build step required'"
-    startCommand: "php -S 0.0.0.0:$PORT -t ."
+    dockerfilePath: ./Dockerfile
     autoDeploy: true
