@@ -1,0 +1,9 @@
+# SQLite Database Files
+database.sqlite
+database.sqlite-journal
+database.sqlite-shm
+database.sqlite-wal
+
+# User Uploaded Assets
+uploads/*
+!uploads/.gitkeep
